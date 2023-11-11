@@ -1,7 +1,8 @@
 
 # Importamos la librería para trabajar con bases de datos SQLite
 import sqlite3
-import os
+import mysql
+
 # Creamos una conexión a la base de datos
 conn = sqlite3.connect('usuarios.db')
 
